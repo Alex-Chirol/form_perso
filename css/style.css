@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.form {
+  background-color: black;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 50px;
+}
+.form__names {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.form__input {
+  padding: 10px;
+  border-radius: 15px;
+}
+.form__input__email, .form__input__password {
+  margin: 0 110px;
+}
+.form__select {
+  margin: 0 110px;
+  padding: 10px;
+  border-radius: 15px;
+  color: #7d7d7d;
+  background-color: white;
+}
+.form__checkbox {
+  text-align: center;
+}
+.form__label {
+  color: white;
+}
+.form__label a {
+  color: lightblue;
+}
+.form__label a:hover {
+  text-decoration: none;
+}
+.form__btn {
+  margin: 0 110px 50px 110px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  font-size: 1.5em;
+  border: 2px white solid;
+}
+.form__btn:hover {
+  color: white;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

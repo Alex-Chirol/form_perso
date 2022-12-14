@@ -1,0 +1,52 @@
+.form {
+    background-color: black;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    &__names {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    &__input {
+        padding: 10px;
+        border-radius: 15px;
+    }
+    &__input__email, &__input__password {
+        margin: 0 110px;
+    }
+    &__select {
+        margin: 0 110px;
+        padding: 10px;
+        border-radius: 15px;
+        color: #7d7d7d;
+        background-color: white;
+    }
+    &__checkbox {
+        text-align: center;
+    }
+    &__label {
+        color: white;
+    }
+    &__label a {
+        color: lightblue;
+    }
+    &__label a:hover {
+        text-decoration: none;
+    }
+    &__btn {
+        margin: 0 110px 50px 110px;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: white;
+        font-size: 1.5em;
+        border: 2px white solid;
+    }
+    &__btn:hover {
+        color: white;
+        background-color: black;
+    }
+}

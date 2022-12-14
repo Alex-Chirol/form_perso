@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulaire perso</title>
+</head>
+
+<body>
+
+    <form class="form" action="#" method="post">
+        <div class="form__names">
+            <input class="form__input" type="text" name="nom__input" id="nom__input" placeholder="Nom">
+            <input class="form__input" type="text" name="prenom__input" id="prenom__input" placeholder="Prenom">
+        </div>
+        <input class="form__input form__input__email" type="email" name="email__input" id="email__input" placeholder="Email">
+        <input class="form__input form__input__password" type="password" name="password__input" id="password__input" placeholder="Mot de passe">
+        <select class="form__select" name="selection" id="selection">
+            <option value="">Vous êtes ?</option>
+            <option value="homme" placeholder="salut">Un homme</option>
+            <option value="femme">Une femme</option>
+            <option value="autre">Autre</option>
+        </select>
+        <div class="form__checkbox">
+            <input class="form__checkbox__input" type="checkbox" name="checkbox__input" id="checkbox__input">
+            <label class="form__label" for="checkbox__input">Accepter les <a href="">conditions d’utilisations</a></label>
+        </div>
+        <button class="form__btn" type="submit">S'inscrire</button>
+    </form>
+
+</body>
+
+</html>
